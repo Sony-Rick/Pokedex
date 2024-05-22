@@ -7,16 +7,18 @@ body {
     background-color: #f6f8fc;
 }
 .content {
+    height: 100vh;
+    width: 100vh;
     padding: 1rem;
     background-color: white;
-    
-
+   
 }
 
 @media screen and (min-width: 992px) { 
     .content{
         max-width: 992px;
-        margin: 0 auto;
+        height: auto;
+        margin: 1rem auto;
      }
 }
 
