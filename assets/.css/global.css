@@ -23,24 +23,3 @@ body {
      }
 }
 
-.pokemons {
-   display: grid;
-   grid-template-columns: 1fr;
-   list-style: none;
-   padding: 0;
-   margin: 0;
-
-}
-
-@media screen and (min-width: 380px) { 
-    .pokemons{
-        grid-template-columns: 1fr 1fr;
-     }
-}
-
-@media screen and (min-width: 576px) { 
-    .pokemons{
-        grid-template-columns: 1fr 1fr 1fr;
-     }
-}
-
