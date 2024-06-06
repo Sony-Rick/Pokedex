@@ -30,6 +30,8 @@ fetch(url)
        for (let i = 0; i < pokemonList.lengt; i++) { 
          const pokemon = pokemonList[i];
          console.log(convertPokemonToLi(pokemon))
+
+         document.getElementsByClassName('pokemons')
       }
    })
    .catch((error)=>console.error(error))
