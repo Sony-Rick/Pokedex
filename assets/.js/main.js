@@ -30,7 +30,7 @@ fetch(url)
     .then((pokemons) => {
         for (let i = 0; i < pokemons.length; i++) {
             const pokemon = pokemons[i];
-            pokemonList.innerHTML += convertPokemonToLi(pokemon);
+            pokemonList.innerHTML += convertPokemonToHtml(pokemon);
         }
     })
     .catch((error) => console.error(error));
